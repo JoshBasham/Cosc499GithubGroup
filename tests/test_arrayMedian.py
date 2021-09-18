@@ -1,9 +1,7 @@
 from scripts.median import median
 import unittest
-import sys
-sys.path.append('/.../scripts')
 
-import median
+from scripts import median
 
 class TestMedian(unittest.TestCase):
     def testMedian(self):
